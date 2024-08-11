@@ -203,4 +203,8 @@ d) Push your code to GitHub:
 
 Don't forget to delete the AWS resources created to avoid unnecessary charges.
 
-  - Delete your amplify app from the aws console
+  - Delete your amplify app from the aws console 
+    ![Screenshot 2024-08-11 131759](https://github.com/user-attachments/assets/1426b029-8a66-4afd-81c8-33d662af5fcc)
+  - Double check if the user role is created in cognito is deleted
+  - Delete the role created for this project
+  - Delete the IAM User created for this project (Optional)
