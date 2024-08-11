@@ -1,0 +1,58 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-myquizapp-dev-11864-authRole",
+      "UnauthRoleArn": "arn:aws:iam::988011786157:role/amplify-myquizapp-dev-11864-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::988011786157:role/amplify-myquizapp-dev-11864-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-myquizapp-dev-11864-deployment",
+      "UnauthRoleName": "amplify-myquizapp-dev-11864-unauthRole",
+      "StackName": "amplify-myquizapp-dev-11864",
+      "StackId": "arn:aws:cloudformation:us-west-2:988011786157:stack/amplify-myquizapp-dev-11864/ec4c9670-57a4-11ef-9b58-06acbefe03ab",
+      "AmplifyAppId": "d27r72911oc4iy"
+    }
+  },
+  "auth": {
+    "myquizappf9692629": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-myquizapp-dev-11864-deployment/amplify-cfn-templates/auth/myquizappf9692629-cloudformation-template.json",
+        "logicalId": "authmyquizappf9692629"
+      },
+      "lastPushTimeStamp": "2024-08-11T05:56:06.753Z",
+      "output": {
+        "UserPoolId": "us-west-2_T6lk0dCMY",
+        "AppClientIDWeb": "43i1o4ts1dnptnfg3qf06j64ed",
+        "AppClientID": "2ah9k33rm9nkptfilup00lblqi",
+        "IdentityPoolId": "us-west-2:8ac0089b-6784-4f7b-853c-57d18004d27b",
+        "UserPoolArn": "arn:aws:cognito-idp:us-west-2:988011786157:userpool/us-west-2_T6lk0dCMY",
+        "IdentityPoolName": "myquizappf9692629_identitypool_f9692629__dev",
+        "UserPoolName": "myquizappf9692629_userpool_f9692629"
+      },
+      "lastPushDirHash": "K3uZZrr+TSUQgWkLx16pmIzdnRA="
+    }
+  }
+}
